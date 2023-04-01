@@ -1,0 +1,37 @@
+body 
+{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+.container {
+    border: 1px solid black;
+    display: flexbox;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.container input{
+    margin-bottom: 20px;
+}
+#button {
+    color: antiquewhite;
+    background-color: #7e3ad4;
+    border: none;
+    padding: 10px 20px;
+}
+#button:hover {
+    background-color: rgb(156, 171, 236);
+    color: black;
+
+}
+.Answer-box {
+    margin: auto;
+    padding: 0 20px;
+    width: 30%;
+    border: 1px solid black;
+    text-align:left;
+}
